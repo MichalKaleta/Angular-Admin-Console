@@ -1,0 +1,80 @@
+<div class="container">
+<section class="table-container">
+	<table>
+	   <tr>
+	   	<th>Id</th><th>Name</th><th>Role</th><th>Experince</th>
+	   </tr>
+		 <tr app-employe-row
+		 	*ngFor="let emp of employees"  
+		 	[employe]='emp' 
+		 	(click)='onFocus($event)' >
+		 </tr>   
+	</table>
+</section>
+<button id="admin" type="button" (click)='onSwitchMode()'>
+	Switch to {{mode}}
+</button>
+<section class=form-container>
+<form >
+	<fieldset>
+		<label for="name">Name/Surname:</label>
+		<input  class="setter" type="text" id="name" 
+						[disabled]='isDisabled'
+					  [value]='employees[focusIndex].name'
+					  [title]='title'  />
+		<label for="role">Role:</label>
+		<select class="setter" id="role"
+						[disabled]='isDisabled'
+						[title]='title' >
+			<option value='User'>User</option>
+			<option value='Admin'>Admin</option>
+		</select>
+
+		<label for="position">Position:</label>
+		<select class="setter" id="position"
+					  >
+			<option value='Admin'
+						  [disabled]='isDisabled'
+					  	[title]='title'>Admin</option>
+			<option value='Developer'>Developer</option>
+			<option value='HR'>HR</option>
+			<option value='Manager'
+			        [disabled]='isDisabled'
+					  	[title]='title'> Manager</option>
+			<option value='Tester'>Tester</option>
+		</select>
+
+		<label for="name">Experience:</label>
+		<input class="setter" type="number" id="exp" 
+					[value]='employees[focusIndex].exp'/>
+	</fieldset>
+	<fieldset>
+		<label for="descrShort">Short Description:</label>
+		<textarea class="setter" type="text" id="descrShort"
+							 [value]='employees[focusIndex].descrShort'>
+		</textarea>
+
+		<label for="descrLong">Long Description:</label>
+		<textarea class="setter" type="text" id="descrLong" 
+							[value]='employees[focusIndex].descrLong'>
+		</textarea>
+   
+		<button id="save" type="button" 
+						(click)='onSave()' >Save
+		</button>
+		<button id="cancel" type="button" 
+						(click)='onCancel()' >Cancel
+		</button>
+		<button type="button" 
+		(click)='onAddRow()'>Add Employee</button>
+		<button id="delete" type="button"
+						[disabled]='isDisabled'
+						(click)='onDelete()'
+						[title]='title'>
+			Delete
+		</button>
+	</fieldset>
+</form>	
+
+</section>
+<div>

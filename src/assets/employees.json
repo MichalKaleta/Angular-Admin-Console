@@ -1,0 +1,94 @@
+[
+		{
+	  	"id":1,
+	  	"name":"Michał Kaleta",
+			"role":"User",
+			"position":"Developer",
+			"exp":0,
+			"descrShort":"Totally employable",
+			"descrLong":"Developed this admin console for X-Formation"
+		},
+		{	
+	  	"id":2,
+	  	"name":"John Wayne",
+			"role":"Admin",
+			"position":"Manager",
+			"exp":720,
+			"descrShort":"Western Actor, also admin",
+			"descrLong":"Marion Mitchell Morrison known professionally as John Wayne and nicknamed Duke, was an American actor and filmmaker.An Academy Award-winner for True Grit (1969), Wayne was among the top box office draws for three decades"
+		},
+			{	
+	  	"id":3,
+	  	"name":"Gostek Gostkowski",
+			"role":"User",
+			"position":"Developer",
+			"exp":30,
+			"descrShort":"Generic Everyman",
+			"descrLong":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+			{
+	  	"id":4,
+	  	"name":"Malwina Tołpa",
+			"role":"User",
+			"position":"Tester",
+			"exp":12,
+			"descrShort":"Table tennis Champ",
+			"descrLong":"Born in Oak City Grand Ping-Pong Master"
+		},
+			{
+	 		"id":5,
+	  	"name":"Roman Piękny",
+			"role":"User",
+			"position":"HR",
+			"exp":24,
+			"descrShort":"Smooth talker, good with peaople",
+			"descrLong":" English painter and textile designer. He was a founding member of the London Group, an artists' exhibiting society, and was its president from 1921-1923. Between 1930 and 1947, he was head of the textile school at the Central Saint Martins College of Art and Design, where he had taught since 1903.["
+		},
+		{	 
+	  	"id":6,
+	  	"name":"Honorata Tik",
+			"role":"Admin",
+			"position":"Manager",
+			"exp":48,
+			"descrShort":"Great manager formerly a spy",
+			"descrLong":" The most effective ways to gather data and information about the enemy (or potential enemy) is by infiltrating the enemy's ranks. This is the job of the spy (espionage agent). Spies can return all sorts of information concerning the size and strength of enemy forces. They can also find dissidents within the enemy's forces and influence them to defect. In times of crisis, spies can also oblige to steal technology and sabotage the enemy in various ways."
+		},
+			{
+	  	"id":7,
+	  	"name":"Borg Borg",
+			"role":"Admin",
+			"position":"Admin",
+			"exp":87,
+			"descrShort":"Caveman retrived from ice",
+			"descrLong":" wearing shaggy animal hides, and capable of cave painting like behaviourally modern humans of the last glacial period. Anachronistically, they are simultaneously shown armed with rocks or cattle bone clubs, unintelligent, and aggressive. Popular culture also frequently represents cavemen as living with or alongside dinosaurs, even though non-avian dinosaurs became extinct at the end of the Cretaceous period,"
+		},
+			{	 
+	  	"id":8,
+	  	"name":"Tadeusz Nowakowski",
+			"role":"User",
+			"position":"HR",
+			"exp":120,
+			"descrShort":"Old fashioned gentelman",
+			"descrLong":" Old creepy guy, probably eats babies. Nobody likes him but he knows too much to be fired"
+		},
+			{	 
+	  	"id":9,
+	  	"name":"Anna Krawczyk",
+			"role":"User",
+			"position":"Tester",
+			"exp":120,
+			"descrShort":"aka Destoryer of Worlds, spaceship admiral",
+			"descrLong":"Achievements in physics included the Born–Oppenheimer approximation for molecular wave functions, work on the theory of electrons and positrons, the Oppenheimer–Phillips process in nuclear fusion, and the first prediction of quantum tunneling. With his students he also made important contributions to the modern theory of neutron stars and black holes, as well as to quantum mechanics, quantum field theory, and the interactions of cosmic rays"
+		},
+		{
+			"id":10,
+	  	"name":"Gigi Amoroso",
+			"role":"User",
+			"position":"Developer",
+			"exp":56,
+			"descrShort":"Guy from the song",
+			"descrLong":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful"
+		}
+		
+	]
+	

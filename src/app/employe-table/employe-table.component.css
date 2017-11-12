@@ -1,0 +1,66 @@
+
+.container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+  flex-wrap:wrap;
+  border: 1px solid red;
+}
+.table-container{
+	width:50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 60%;
+}
+.form-container{
+	position: relative;
+	width:100%;
+	align-self: flex-end;
+	height:220px;
+  overflow: auto;
+}
+table{
+	border-collapse: collapse;
+}
+
+tr{
+	background-color: #efe;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	border-width: 1px 0;
+}
+tr:nth-child(odd){
+	background-color: #dfd;
+	border-width: 0;
+}
+tr:first-of-type {
+  border-bottom: 2px solid #666;
+  background-color: #ccf;
+}
+tr:hover {
+	background-color: #faa;
+}
+
+#admin{
+	position: fixed;
+	right:10px;
+	top:10px;
+}
+#exp{
+	width:50px;
+}
+#descrShort{
+	width: 100%;
+	height: 20px;
+}
+#descrLong{
+	width: 100%;
+	height: 50px;
+}
+#delete{
+	position: relative;
+	margin-left: 100px;
+	background-color: #fcc
+}

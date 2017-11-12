@@ -1,0 +1,28 @@
+
+td{
+	position: relative;
+}
+td:nth-child(even) {
+
+	border-width: 0 2px;
+	padding: 5px 10px;
+}
+
+#shower {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top:-35px;
+	left: 100px;
+  opacity: 0;
+  background-color: #ddf;
+  transition: all 0.5s ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+td:hover ~ td > #shower{
+	opacity: 1;
+	transform: translate(-100px);
+}
