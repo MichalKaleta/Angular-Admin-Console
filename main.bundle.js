@@ -40,7 +40,7 @@ var GetList = (function () {
     }
     GetList.prototype.getList = function () {
         //return this.http.get('https://employees-base.firebaseio.com/');
-        return this.http.get('/assets/employees.json')
+        return this.http.get('./assets/employees.json')
             .map(function (response) {
             var data = response.json();
             return data;
