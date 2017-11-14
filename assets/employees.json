@@ -6,7 +6,7 @@
 			"position":"Developer",
 			"exp":0,
 			"descrShort":"Totally employable",
-			"descrLong":"Developed this admin console for X-Formation"
+			"descrLong":"Developed this admin console"
 		},
 		{	
 	  	"id":2,
@@ -77,7 +77,7 @@
 			"role":"User",
 			"position":"Tester",
 			"exp":120,
-			"descrShort":"aka Destoryer of Worlds, spaceship admiral",
+			"descrShort":"aka Destoryer of Worlds",
 			"descrLong":"Achievements in physics included the Born–Oppenheimer approximation for molecular wave functions, work on the theory of electrons and positrons, the Oppenheimer–Phillips process in nuclear fusion, and the first prediction of quantum tunneling. With his students he also made important contributions to the modern theory of neutron stars and black holes, as well as to quantum mechanics, quantum field theory, and the interactions of cosmic rays"
 		},
 		{
